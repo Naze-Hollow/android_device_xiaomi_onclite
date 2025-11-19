@@ -196,7 +196,8 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
 # Lights
-# android.hardware.light-service.xiaomi - module not found, removed
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.lineage
 
 # Lineage Health
 PRODUCT_PACKAGES += \
