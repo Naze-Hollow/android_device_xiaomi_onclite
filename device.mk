@@ -89,7 +89,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     gralloc.msm8953 \
-    hwcomposer.msm8953 \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.system \
@@ -197,8 +196,7 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
 # Lights
-PRODUCT_PACKAGES += \
-    android.hardware.light-service.xiaomi
+# android.hardware.light-service.xiaomi - module not found, removed
 
 # Lineage Health
 PRODUCT_PACKAGES += \
@@ -233,11 +231,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libmm-omxcore \
-    libOmxAacEnc \
-    libOmxAmrEnc \
     libOmxCore \
-    libOmxEvrcEnc \
-    libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
